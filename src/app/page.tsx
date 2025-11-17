@@ -1,4 +1,4 @@
-"use client"
+"use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
 import { Award, Clock, Compass, CreditCard, Crown, HelpCircle, Handshake, MapPin, MessageSquare, Package, Plane, Sparkles, Star, TrendingUp, Users } from "lucide-react";
@@ -143,7 +143,7 @@ export default function Home() {
               price: "€2,999",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34Qgyh3s7JYDSgc82AIVt5yiftd/uploaded-1763394659845-wtzpspgl.jpg",
               imageAlt: "bed, hotel, luxurious, bedroom, hotel room, relax, vacation, hotel, hotel, hotel, hotel, hotel, bedroom, hotel room",
-              onProductClick: "() => window.open('#packages', '_self')"
+              onProductClick: () => window.open('#packages', '_self')
             },
             {
               id: "comfort-package",
@@ -151,7 +151,7 @@ export default function Home() {
               price: "€1,599",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34Qgyh3s7JYDSgc82AIVt5yiftd/uploaded-1763394660618-bevahv8g.jpg",
               imageAlt: "bedroom, hotel, interior, luxury villas, tourism, vacation, cyprus, luxurious, bedroom, bedroom, bedroom, bedroom, bedroom, hotel, hotel",
-              onProductClick: "() => window.open('#packages', '_self')"
+              onProductClick: () => window.open('#packages', '_self')
             },
             {
               id: "budget-package",
@@ -159,7 +159,7 @@ export default function Home() {
               price: "€899",
               imageSrc: "https://webuild-dev.s3.eu-north-1.amazonaws.com/users/user_34Qgyh3s7JYDSgc82AIVt5yiftd/uploaded-1763394661310-yq4tv4og.jpg",
               imageAlt: "hotel, hotel rooms, home, decoration, relax, mood, room, bed, double bed, tourist, boudoir, hotel, hotel, hotel, hotel, hotel",
-              onProductClick: "() => window.open('#packages', '_self')"
+              onProductClick: () => window.open('#packages', '_self')
             }
           ]}
           buttons={[

@@ -1,7 +1,7 @@
 "use client";
 
 import { ThemeProvider } from "@/providers/themeProvider/ThemeProvider";
-import { Award, Clock, Compass, CreditCard, Crown, HelpCircle, Handshake, MapPin, MessageSquare, Package, Plane, Sparkles, Star, TrendingUp, Users } from "lucide-react";
+import { Award, Clock, Compass, CreditCard, Crown, Facebook, HelpCircle, Handshake, Instagram, MapPin, MessageSquare, Package, Plane, Sparkles, Star, TrendingUp, Twitter, Users, Youtube } from "lucide-react";
 import NavbarLayoutFloatingOverlay from '@/components/navbar/NavbarLayoutFloatingOverlay/NavbarLayoutFloatingOverlay';
 import HeroBillboardScroll from '@/components/sections/hero/HeroBillboardScroll';
 import TextSplitAbout from '@/components/sections/about/TextSplitAbout';
@@ -434,10 +434,10 @@ export default function Home() {
             }
           ]}
           socialLinks={[
-            { icon: "Facebook", href: "https://facebook.com/eurotrip", ariaLabel: "Follow us on Facebook" },
-            { icon: "Instagram", href: "https://instagram.com/eurotrip", ariaLabel: "Follow us on Instagram" },
-            { icon: "Twitter", href: "https://twitter.com/eurotrip", ariaLabel: "Follow us on Twitter" },
-            { icon: "Youtube", href: "https://youtube.com/eurotrip", ariaLabel: "Subscribe to our YouTube channel" }
+            { icon: Facebook, href: "https://facebook.com/eurotrip", ariaLabel: "Follow us on Facebook" },
+            { icon: Instagram, href: "https://instagram.com/eurotrip", ariaLabel: "Follow us on Instagram" },
+            { icon: Twitter, href: "https://twitter.com/eurotrip", ariaLabel: "Follow us on Twitter" },
+            { icon: Youtube, href: "https://youtube.com/eurotrip", ariaLabel: "Subscribe to our YouTube channel" }
           ]}
         />
       </div>

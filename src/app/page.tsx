@@ -129,7 +129,7 @@ export default function Home() {
 
       <div id="product" data-section="product">
         <ProductCardOne
-          title="Travel Packages"
+          title="Travel Packages Top"
           description="Choose from our carefully crafted travel packages designed for different preferences and budgets"
           tag="Packages"
           tagIcon={Package}
